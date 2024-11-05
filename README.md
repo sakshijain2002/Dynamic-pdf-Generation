@@ -1,4 +1,4 @@
-# Invoice PDF Generator
+# Dynamic PDF Generator
 
 This project is a **Spring Boot** service that generates and serves invoices in **PDF format**. When an invoice is requested, it either generates a new PDF or retrieves an already-generated one (if the same invoice data is provided). The PDF is generated using the **iText PDF** library and stored locally for future access.
 
